@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="46a3b7f9-70b3-43c4-b05a-883f541ba14e" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:1029/WCFContactService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WCFContactService.xsd" MetadataType="Schema" ID="ab5b7eb3-1836-4d9a-a3df-bb4978cc731c" SourceId="1" SourceUrl="http://localhost:1029/WCFContactService.svc?xsd=xsd1" />
+    <MetadataFile FileName="WCFContactService.wsdl" MetadataType="Wsdl" ID="f1ebcbe9-489b-4552-afb4-0b4d83e43015" SourceId="1" SourceUrl="http://localhost:1029/WCFContactService.svc?wsdl" />
+    <MetadataFile FileName="WCFContactService1.xsd" MetadataType="Schema" ID="f8daf64a-931b-4e4f-b88e-2aa73831d732" SourceId="1" SourceUrl="http://localhost:1029/WCFContactService.svc?xsd=xsd2" />
+    <MetadataFile FileName="WCFContactService.disco" MetadataType="Disco" ID="1555a054-630d-4093-96a0-a62a24302b19" SourceId="1" SourceUrl="http://localhost:1029/WCFContactService.svc?disco" />
+    <MetadataFile FileName="WCFContactService2.xsd" MetadataType="Schema" ID="41a394bf-fc5b-4938-85cc-b70216dc5eba" SourceId="1" SourceUrl="http://localhost:1029/WCFContactService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
